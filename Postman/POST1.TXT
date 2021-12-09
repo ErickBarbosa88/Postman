@@ -1,0 +1,6 @@
+exemplo de POST na API : https://gorest.co.in/public/v1/users
+
+create new user {
+  curl -i -H "Accept:application/json" -H "Content-Type:application/json" -H "Authorization: Bearer ACCESS-TOKEN" -XPOST "https://gorest.co.in/public/v1/users" -d '{"name":"Tenali Ramakrishna", "gender":"male", "email":"tenali.ramakrishna@15ce.com", "status":"active"}'
+}
+

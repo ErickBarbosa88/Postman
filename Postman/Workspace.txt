@@ -1,0 +1,8 @@
+Criando workspace
+
+1-Nome: Nome do workspace;
+2-Resumo: Resumo do workspace
+3-Tipo: Tipo de Workspace, podendo ser poessoal ou Time
+4-Convidar pessoas: Campo para informar e-mails para convidar membros paa o time;
+5-Visibilidade: Publico ou privado*;
+6-Privilégios: Define os Privilégios dos membros do time.

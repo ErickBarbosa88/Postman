@@ -1,0 +1,13 @@
+Criando Requests
+-Autorização de requests
+-Agrupando requests em coleções
+-Usando Variáveis
+-Gerenciando ambientes
+
+## Detalhes de uma requisição ##
+
+-Setar URL e recurso;
+-Escolher o metodo de envio;
+-Autenticação.
+-Enviar parâmetros.
+-Enviar dados no corpo da requisição.

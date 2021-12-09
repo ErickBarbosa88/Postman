@@ -1,0 +1,12 @@
+Criando coleções
+
+-Agrupa requisições em pastas;
+-Reusu de requisição;
+Podem ser importadas e exportadas;
+
+1. Nome: Nome do workspace;
+2- Descrição da coleção
+3- Autorização: Preferências de autorização das requisições;
+4- Scripts de pré requisição: Scripts executados antes de cada requisição;
+5- Testes: Scripts de testes executados após cada requisição;
+6- Variáveis de requisição;

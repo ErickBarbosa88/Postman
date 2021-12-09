@@ -1,0 +1,12 @@
+Envianddo primeiro Request
+
+- possibilidade de enviar Requests sem linhas de códigos;
+
+-Métodos mais comuns paa Requests:
+
+GET: Método para recuperar dados de uma API
+POST: Envia novos dados para a API.
+PATCH/PUT: Atualiza dados existentes.
+DELETE: Remove dados existentes.
+
+Postman Echo: https://docs.postman-echo.com/
