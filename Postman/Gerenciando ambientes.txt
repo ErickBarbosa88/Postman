@@ -1,0 +1,7 @@
+Gerenciando ambientes
+
+-Usar dois ambientes, um para desenvolvimento e outro para produção;
+-Cada ambiente deve er uma variável para armazenar a url base;
+-Cada requisição da coleção deve referenciar a variável de url base;
+-Pode-se restringir acesso a ambientes de acordo com os times;
+-Deve-se "chavear" de ambiente para execução de testes;

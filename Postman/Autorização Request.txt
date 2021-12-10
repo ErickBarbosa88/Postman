@@ -1,0 +1,7 @@
+Autorização de Request
+
+-inheriting auth: Herda configuraçõs de autorização da coleção.
+-No auth: Não será enviado nenhuma informação de autorização pelo postman;
+-API Key: Informa a chave da API e o valor para autenticação dos requests;
+-Basic Auth: Autenticação básica de usuário e senha;
+-Bearer token: Garante permissao para as requisições atrabés de uma chave de acesso.

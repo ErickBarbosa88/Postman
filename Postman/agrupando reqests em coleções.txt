@@ -1,0 +1,12 @@
+Agrupando requests em coleções
+
+-Permite organizar o workspace
+-Compartilhar com membros do time
+-Permite a riação de suites de testes
+-Gerar documentações;
+
+-Criação de novo usuário:
+------Body
+        ------raw
+                -----digita o JSON e organiza com Beautify
+                {"name":"Tenali Ramakrishna", "gender":"male", "email":"tenali.ramakrishna@15ce.com", "status":"active"}

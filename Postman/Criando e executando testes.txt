@@ -1,0 +1,22 @@
+Criando e executando testes;
+
+-Testes são escritos em JavaScript no Postman;
+-Sintaxe BDD nativa (Postman Sandbox);
+-Validam retornos de requisições;
+-Permitem garantir que uma API esteja funcionando conforme o esperado;
+-Testes rodam no Postman Sandbox;
+-Podem utilizar diversas sintaxes BDD (Postman BDD, ChaiJS, etc...)
+
+sintaxe básica
+
+pm.test("Status test", function(){
+  pm.response.to.have.status(200);
+})
+
+outro exemplo: 
+
+pm.test("as respostas devem estar prontas para processar", function(){
+  pm.response.to.not.be.error;
+  pm.response.to.have.jsonBody('');
+  pm.response.to.not.have.jsonBody('error')
+})

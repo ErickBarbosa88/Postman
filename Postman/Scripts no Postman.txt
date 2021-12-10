@@ -1,0 +1,39 @@
+Scripts no postman
+
+-Engine de execução baseada em node.js;
+-Permite adiconar conteúdo dinâmico às requisições;
+-Possibilidade de adicionar códigos JavaScript em dois momentos:
+antes da execução de um request e após execução de um request;
+-Os scripts podem ser criados em coleções, subpastas e requisições;
+
+Scripts pré requisição 
+
+sintax Postman SandBox:
+
+-pm: Objeto que guarda informações da requisição/response
+
+-pm.info:Fornece informações sobre o script que será executado,
+como nome, ID, contagem de interaçõs, etc...
+
+-pm.variables, environment, collectionVariables, globals: Fornece
+acesso às variáveis, dependendo de seu escopo, podendo setar e pegar valores;
+
+-pm.response: Obtém informações sobre o response;
+
+-pm.test: Usado para criar scripts de teste no postman;
+
+-pm.expect: Função para criar asserts para scripts de testes;
+
+-pm.response.to.be*.:Conjunto de asserts pré definidos para testes;
+
+EXEMPLOS
+===========
+
+-pm.info:Fornece informações sobre o script que será executado,
+como nome, ID, contagem de interaçõs, etc:
+
+pm.info.eventName
+pm.info.iteration
+pm.info.iterationCount
+pm.info.requestName
+pm.info.requestId

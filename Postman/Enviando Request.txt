@@ -11,3 +11,5 @@ Criando Requests
 -Autenticação.
 -Enviar parâmetros.
 -Enviar dados no corpo da requisição.
+
+https://gorest.co.in/public/v1/users/:id por parametro query value = {} id = key

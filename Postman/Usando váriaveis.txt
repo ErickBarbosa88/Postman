@@ -1,0 +1,25 @@
+Usando variáveis
+
+-Permite armazenar e reutilizar valores nas requisições;
+-Uma váriavel pode ser usada em coleções, ambientes e requisições
+-Aumenta eficiência e minimiza erros;
+-Escopos de váriaveis:Global, Coleçoes, Ambiente, dados e local;
+
+Gerenciamento ambientes
+
+Escopos de variáveis
+-Global: Vísivel em todo workspace;
+-Coleções: Vísivel em todos requests de uma coleçao;
+-Ambiente: Permite fazer o chaveamento entre ambientes;
+-Local: Variável temporária, visível apenas em uma requisição;
+-Dados: Fornecidas de fontes externas, como CSV e JSON;
+
+
+-váraves locais
+
+users?nome={{nome_da_variável}}&gender={{genero}}
+
+pm.variables.set("nome_pessoa", "Gopal Sharma");
+pm.variables.set("genero", "male");
+
+
