@@ -1,0 +1,9 @@
+criando estrutura de testes
+
+necessário devido ao crescimento de APIs
+Simplifica o reuso e entendimento dos testes;
+pode ser organizado por recurso, suíte de testes e fluxos de trabalho;
+
+add = post ={"name":"Tenali Ramakrishna", "gender":"male", "email":"tenali.ramakrishna@15ce.com", "status":"active"}
+
+delete = "https://gorest.co.in/public/v1/users/123"

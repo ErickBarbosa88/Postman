@@ -1,0 +1,7 @@
+Utilizando o collection runner
+
+-premite executar conjuntos de testes;
+a sequencia de execução pode ser alterada
+pode ser executado em ambientes especificos
+execução de coleções podem ser agendadas;
+podem ser integrados em Pipelines CI / CD;

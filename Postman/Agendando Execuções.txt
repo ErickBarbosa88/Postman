@@ -1,0 +1,7 @@
+Agendando execuções
+
+Permite automatizar Collection Runs;
+Utiliza monitores para mandar e receber reports de execuções;
+Uma coleção pode ter um ou mais monitores;
+Execução de coleções podem ser agendadas;
+Podem ser integrados em Pipelines CI/CD;

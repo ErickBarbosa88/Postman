@@ -3,3 +3,4 @@ APIs para teste
 https://gorest.co.in/
 http://dummy.restapiexample.com/
 https://docs.postman-echo.com/
+https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/
