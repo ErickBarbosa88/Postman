@@ -1,0 +1,18 @@
+Por padrão o postman usa a ordem das requisições na coleção para executar;
+podemos sobrescrever essa ordem com funcao postman.setNextRequest();
+pode colocar execuções em loop;
+pode ser feito nos scripts de pré requisição ou testes;
+
+sintaxe básica: 
+postman.setNextRequest("request_name ou ID")
+
+Sintaxe básica para parar fluxo de execução;
+postman.setNextRequest(null);
+
+pontos importantes: 
+-ter cuidado ao usar o postman.setNextRequest() passando o proprio request(loop);
+
+-se for executado em uma coleção, pode pular para qualquer requisição, estando 
+na mesma pasta ou não;
+
+
