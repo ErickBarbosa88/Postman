@@ -1,0 +1,22 @@
+Passo a Passo:
+
+-Ler documentação da API - ok    
+-Criar Workspace; - ok
+-Convidar membros - ok
+-Criar ambientes e variáveis - ok 
+-Criar estrutura da coleção - ok
+-Criar Requisições - ok
+-Parametrizar variáveis; - ok
+-Criar arquivos de dados;
+-Parametrizar autenticação;
+-Criar pre request scripts
+-Criar testes;
+-Criar e executar com monitor (criar um monitor para cada ambiente);
+-Exportar resultados das execuções;
+-Exportar coleção e ambiente;
+-Instalar, cas não tenha: node.js, newman, html-reporter e htmlextra;
+-Criar estrutura de pasta para newman;
+-Executar via newman colecao e ambiente exportados;
+
+
+API key hunter: 34a1440f383780457d2a91d15bef7f480103c29b

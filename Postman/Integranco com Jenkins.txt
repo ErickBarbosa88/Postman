@@ -1,0 +1,5 @@
+-servidor de automação open source;
+-Ajuda no proceso de  desenvolvimento de software, autmatizando o deploy e testes;
+-Pode executar comandos shell, DOS, maven, Ant...;
+-Suporte a diversos plugins;
+Pode executar jobs de formas automaticas

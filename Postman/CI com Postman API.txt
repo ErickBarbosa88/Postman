@@ -1,0 +1,14 @@
+Integração continua:
+
+-Integração Continua (CI) é uma prática que visa integrar o processo de build de código
+e testes automatizados;
+
+-Reduz o trabalho manual no processo de integração;
+
+-Garante que a solução está funcionando após cada atualização;
+
+- Fornece integração a ferramentas como github, bitbucket, dropbox, microsoft teams, slack...
+
+-Integração realizada através da chave de API (API key);
+
+- pode sr criada apenas uma API key;

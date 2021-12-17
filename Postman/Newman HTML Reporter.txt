@@ -1,0 +1,11 @@
+-Instalação via node.js (npm install -g newman-reporter-html);
+-gera relatorios padrões de execuções no newman;
+-Layout padrões simples;
+-Pode utilizar templates externos;
+
+Sintaxe:
+
+newman run coleção_executar -r html: Gera report HTML no template padrão na pasta
+do newman (geralmente c:\users\users\newman);
+
+-newman run coleção_executar --reporters cli, html -- reporter-html-template caminho template --reporter-html-export report_exportado.html: cria um report baseado em um template;

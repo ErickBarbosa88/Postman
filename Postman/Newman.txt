@@ -1,0 +1,25 @@
+Instalando o newman 
+
+npm install -g newman: Faz a instalação global do Newman;
+
+npm install -g newman-reporter-html: instala o módulo de geração de reports em HTML;
+
+=====
+Comandos básicos do Newman:
+
+-newman run {{caminho_colecao_json}}: Executa uma coleção em json;
+-newman run {{url_da_coleção}}: Executa uma coleção via url;
+-newman run colecao_postman.json -e testEnv.json: executa coleção com arquivo de variáveis;
+
+Parametros opcionais:
+
+-h: Abre o menu de ajuda;
+--folder[nome_da_pasta]: Executa uma pasta especifica de uma coleção;
+-e: Especifica um arquivo de variáveis de ambiente JSON
+-d Especifica um arquivo de dados (json ou CSV)
+-n: informa o numero de interações;
+--delay-request[número_ms]; Especifica um delay de execução entre requisições;
+--bail: Para a execução se um teste falhar;
+--vrbose: Mostra detalhes da execução de cada request;
+
+newman run -d new10.csv Go_Rest_API_postman_collection.json -e Testes_environment.json --folder Usuários

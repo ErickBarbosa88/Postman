@@ -1,0 +1,10 @@
+Executa coleções do Postman via linha de comando;
+Facilmente integrável com servidores de integração contínua;
+Precisa do node.js instalado
+Gera report em HTML;
+
+Instalando o newman 
+
+npm install -g newman: Faz a instalação global do Newman;
+
+npm install -g newman-reporter-html: instala o módulo de geração de reports em HTML;
